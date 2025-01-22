@@ -119,7 +119,7 @@ function App() {
         <div className="modal-overlay" onClick={() => setSelectedType(null)}>
           <div className="modal-content" onClick={e => e.stopPropagation()}>
             <h2>{selectedType.name}<br/>{selectedType.price}<br/>
-              <span className="max-prize">
+              <span className="max-prize" style={{ color: 'white' }}>
                 MAX PRIZE: {selectedType.maxPrize.split(' ')[0]} SOL<br/>
                 ({selectedType.maxPrize.split('(')[1].split(')')[0]})
               </span>

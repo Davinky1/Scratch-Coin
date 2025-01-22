@@ -130,7 +130,7 @@ const BingoCard = ({ variant, preview = false }) => {
       
       <div className="card-footer">
         <p>Match numbers to win prizes</p>
-        <div className="max-prize">
+        <div className="max-prize" style={{ color: 'white' }}>
           Max Prize: 80.97 SOL<br/>
           ($20,000 USD)
         </div>
