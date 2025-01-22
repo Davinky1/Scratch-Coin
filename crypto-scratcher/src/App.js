@@ -4,6 +4,7 @@ import ZodiacCard from './components/cards/ZodiacCard';
 import TopCatCard from './components/cards/TopCatCard';
 import FrostyCard from './components/cards/FrostyCard';
 import BingoCard from './components/cards/BingoCard';
+import Footer from './components/Footer';
 
 const CARD_TYPES = {
   ZODIAC: {
@@ -147,6 +148,7 @@ function App() {
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 }
