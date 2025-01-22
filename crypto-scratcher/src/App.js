@@ -91,8 +91,8 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>Crypto Scratcher</h1>
-        <p>Choose your lucky card!</p>
+        <h1>Scratch-Coin</h1>
+        <p>Choose Wisely, Scratch Freely</p>
       </header>
       
       <main className="main">
