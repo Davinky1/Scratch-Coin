@@ -1,4 +1,4 @@
-run = "npm install && npm start"
+run = "cd Scratch-Coin/crypto-scratcher && npm install && npm start"
 hidden = [".config", "package-lock.json"]
 language = "nodejs"
 
